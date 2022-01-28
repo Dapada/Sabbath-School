@@ -4,13 +4,21 @@
 }
 
 
-ul {
+body {
+	background-color: #0E1152;
 
 }
 
-body {
+
+nav {
 	width: 100%;
-	height: 100px;
+	height: 60px;
+	background-color: lavender;
+}
+
+
+ul {
+
 }
 
 
@@ -18,6 +26,7 @@ ul li{
 	list-style: none;
 	display: inline-block;
 	float: left;
+	line-height: 60px;
 
 	
 }
@@ -27,6 +36,6 @@ ul li a{
 	text-decoration: none;
 	font-size: 16px;
 	font-family: time new roman;
-	color: skyblue;
-	
+	color: #0E1152;
+	padding: 0 20px;
 }
