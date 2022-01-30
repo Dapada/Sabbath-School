@@ -19,7 +19,7 @@ nav {
 
 
 ul {
-	margin-left: 60px;
+	margin-left: 200px;
 }
 
 
@@ -34,7 +34,7 @@ ul li{
 
 
 ul li a{
-	/* display: block; */
+	display: block; 
 	text-decoration: none;
 	font-size: 16px;
 	font-family: time new roman;
@@ -51,16 +51,21 @@ ul li a:hover{
 
 
 li > p {
-	margin-left: 900px;
+	margin-left: 940px;
 }
 
 div > p {
 	float: right;
+	
 	padding: 0 20px;
-	line-height: 100px;
-	margin-right: 50px;
+	line-height: 115px;
+	margin-right: 60px;
+	
 	color: white;
 }
+
+
+
 
 
  
