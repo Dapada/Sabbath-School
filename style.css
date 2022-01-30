@@ -61,27 +61,13 @@ div ul {
 }
 
 
-
-div ul li  {
+div ul li {
 	float: right;
 	padding: 0 20px;
-	background-color: lavender;
-	width: auto;
-	height: auto;
-	text-align: center;
-	color: #0E1152;
+	color: white;
 	font-size: 18px;
-}
+} 
 
-
-li p {
-	margin-left: 925px;
-	
-}
-
-p > a {
-	background-color: green;
-}
 
 
 
