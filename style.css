@@ -42,6 +42,13 @@ ul li a{
 }
 
 
+
+ul li a:hover{
+	color: blueviolet;
+	
+}
+
+
 div {
 	margin-right: 60px;
 	margin-top: 30px;
@@ -68,5 +75,10 @@ div ul li  {
 
 
 li p {
-	margin-left: 900px;
+	margin-left: 925px;
+	
 }
+
+
+
+
