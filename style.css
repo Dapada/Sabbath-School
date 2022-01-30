@@ -64,18 +64,9 @@ div ul li  {
 	text-align: center;
 	color: #0E1152;
 	font-size: 18px;
-
 }
 
 
-div p {
-	color: white;
-	width: 50%;
-	
+li p {
+	margin-left: 900px;
 }
-
-p {
-	margin-bottom: 50px;
-	width: ;
-}
-
