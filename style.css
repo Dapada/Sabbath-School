@@ -55,6 +55,22 @@ li > p {
 }
 
 
+p {
+	width: 10%;
+	height: 10px;
+	margin-right: auto;
+	/*margin-left: auto;*/
+	padding: 0 20px;
+	height: 90px;
+	color: white;
+}
+
+.row {
+	width: 100%;
+}
+
+
+
 
 
 
