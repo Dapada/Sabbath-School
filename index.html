@@ -3,10 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Sabbath School</title>
 
 <style>
+*{
+	margin: 0;
+	padding: 0;
+}
+	body {
+	background-color: #0E1152;
+}
+
 
  .topnav a {
   float: left;
@@ -16,7 +24,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  margin-left: 20px;
+  margin-left: 30px;
   /*border-bottom: 3px solid transparent;*/
   
 }
@@ -29,16 +37,75 @@
 a:hover {
 	color: palevioletred;
 }
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
 </style>
 
 </head>
 <body>
 	<div class="topnav">
   		<a class="active" href="#Sabbath School">Sabbath School</a>
-  		<a href="#classes">classes</a>  
+  		<!--<a href="#classes">classes</a> --> 
+
+<div class="subnav">
+    <button class="subnavbtn">Classes <i class="fa fa-caret-down"></i>
+    </button>
+
+    <div class="subnav-content">
+      <a href="#company">Esther</a>
+      <a href="#team">Ruth</a>
+      <a href="#careers">Benjamin</a>
+    </div>
+</div>
+
+
+    
   		<a href="#cotisations">Cotisations</a>
   		<a href="#news">News</a>
   		<a href="#contact">Contact</a>
+
 	</div>
+
+
+	<p>ttttttttttt</p>
+
 </body>
 </html>
