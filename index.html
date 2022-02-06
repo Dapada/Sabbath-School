@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css ">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	<title>Sabbath School</title>
 
 <style>
@@ -16,8 +16,8 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  margin-left: 35px;
+  font-size: 16px;
+  margin-left: 0 20px;
   /*border-bottom: 3px solid transparent;*/
   
 }
@@ -27,9 +27,6 @@
   background-color: lavender;
 }
 
-a:hover {
-	color: palevioletred;
-}
 
 .subnav {
   float: left;
@@ -47,10 +44,14 @@ a:hover {
   margin: 0;*/
 }
 
+.topnav a:hover, .subnav:hover .subbtn {
+	background-color: powderblue;
+} 
+
 .subnav-content {
   display: none;
   position: absolute;
-  left: 0;
+  left: 150px;
   background-color: powderblue;
   min-width: 100%;
   z-index: 1;
@@ -75,9 +76,8 @@ a:hover {
 </head>
 <body>
 	<div class="topnav">
-  		<a class="active" href="#Sabbath School">Sabbath School</a>
+  		<a href="#Sabbath School">Sabbath School</a>
   		 
-
 <div class="subnav">
     <button class="subnavbtn">Classes <i class="fa fa-caret-down"></i></button>
 
@@ -85,6 +85,10 @@ a:hover {
       <a href="#company">Esther</a>
       <a href="#team">Ruth</a>
       <a href="#careers">Benjamin</a>
+      <a href="youth 1">Youth 1</a>
+      <a href="youth 2">Youth 2</a>
+      <a href="enfantine 1">Enfantine 1</a>
+      <a href="enfantine 2">Enfantine 2</a>
     </div>
 </div>
   	  <a href="#cotisations">Cotisations</a>
