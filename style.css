@@ -51,7 +51,7 @@ body {
   display: none;
   position: absolute;
   left: 150px;
-  background-color: powderblue;
+  background-color: #44bcd8;
   min-width: 100%;
   z-index: 1;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .subnav-content a:hover {
-  background-color: #eee;
+  background-color: #44bcd8;
   color: black;
 }
 
