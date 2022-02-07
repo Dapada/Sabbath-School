@@ -43,7 +43,7 @@ body {
   margin: 0;*/
 }
 
-.topnav a:hover, .subnav:hover .subbtn {
+.topnav a:hover, .subnav:hover .subnavbtn {
 	background-color: #44bcd8;
 } 
 
