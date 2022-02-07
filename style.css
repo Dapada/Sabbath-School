@@ -23,7 +23,7 @@ body {
 
  .topnav {
   overflow: hidden;
-  background-color: lavender;
+  background-color: #e6e6fa;
 }
 
 
@@ -40,30 +40,31 @@ body {
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;*/
+  margin: 0;
 }
 
 .topnav a:hover, .subnav:hover .subnavbtn {
-	background-color: #44bcd8;
+	/*background-color: #44bcd8;*/
+	border-top: 2px solid red;
 } 
 
 .subnav-content {
   display: none;
   position: absolute;
-  left: 150px;
-  background-color: #44bcd8;
-  min-width: 100%;
+  background-color: #dfc8a2;
+  min-width: 50%;
   z-index: 1;
 }
 
 .subnav-content a {
   float: left;
+  text-align: left;
   color: white;
   text-decoration: none;
 }
 
 .subnav-content a:hover {
-  background-color: #44bcd8;
+  background-color: #abdbe3;
   color: black;
 }
 
