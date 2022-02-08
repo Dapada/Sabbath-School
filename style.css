@@ -2,6 +2,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -48,19 +49,19 @@ body {
 	border-top: 2px solid red;
 } 
 
+.subnav-content a {
+  float: left;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
 .subnav-content {
   display: none;
   position: absolute;
   background-color: #dfc8a2;
   min-width: 50%;
   z-index: 1;
-}
-
-.subnav-content a {
-  float: left;
-  text-align: left;
-  color: white;
-  text-decoration: none;
 }
 
 .subnav-content a:hover {
