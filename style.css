@@ -75,8 +75,52 @@ body {
 
 
 
+.topnav .login-container{
+	float: right;
+}
 
+.topnav input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 16px;
+	border: none;
+	width: 140px;
+}
 
+.topnav .login-container button {
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+	background-color: green;
+}
+
+@media (max-width: 450px) {
+	.topnav .login-container {
+		float: left;
+}	
+	.topnav a, .topnav input[type=text], .topnav .login-container button {
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;	
+	display: inline-block;
+	}
+
+	.topnav input [type=text] {
+		border: 1px solid #ccc;
+	}
+
+}
 
 
 
