@@ -123,29 +123,49 @@ body {
 }
 
 
-.btn {
-	float: right;
-	overflow: hidden;
+
+
+.subnav1 {
+  float: left;
+  overflow: hidden;
 }
 
-
-.btn .exitbtn {
-	/*background-color: #555;*/
-	background-color: inherit;
-	color: #555;
-	float: right;
-	border: none;
-	padding: 3px 12px;
-	margin-right: 6px;
-	font-size: 24px;
-	cursor: pointer;
-	margin-top: 6px;
+.subnav1 .subnavbtn1 {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
-/* Darker background on mouse-over */
-.btn:hover .exitbtn{
-  background-color: #0E1152;
+.topnav1 a:hover, .subnav1:hover .subnavbtn1 {
+	/*background-color: #44bcd8;*/
+	border-top: 2px solid red;
+} 
+
+.subnav-content1 a {
+  float: left;
+  text-align: left;
   color: white;
+  text-decoration: none;
+}
 
+.subnav-content1 {
+  display: none;
+  position: absolute;
+  background-color: #dfc8a2;
+  min-width: 50%;
+  z-index: 1;
+}
 
- 
+.subnav-content1 a:hover {
+  background-color: #abdbe3;
+  color: black;
+}
+
+.subnav1:hover .subnav-content1 {
+  display: block;
+}
