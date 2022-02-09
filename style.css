@@ -75,6 +75,26 @@ body {
 
 
 
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  padding: 6px 12px;
+  margin-top: 8px;
+  margin-right: 6px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
 .topnav .login-container{
 	float: right;
 }
@@ -119,25 +139,6 @@ body {
 	.topnav input [type=text] {
 		border: 1px solid #ccc;
 	}
-}
-
-
-.btn {
-  background-color: DodgerBlue;
-  color: white;
-  /*border: none;*/
-  
-  padding: 6px 12px;
-  margin-top: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  float: right;
-  margin-right: 6px;
-}
-
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
 }
 
 
