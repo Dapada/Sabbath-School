@@ -124,15 +124,14 @@ body {
 
 
 .btn {
-	background-color: dodgerblue;
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin: 6px 6px;
 	float: right;
-	margin-top: 8px;
-	padding: 6px 12px;
 	margin-right: 6px;
 
 }
-
-
 
 
 
