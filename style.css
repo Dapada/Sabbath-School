@@ -92,7 +92,7 @@ body {
 	float: right;
 	padding: 6px 10px;
 	margin-top: 8px;
-	margin-right: 70px;
+	margin-right: 120px;
 	background-color: #555;
 	color: white;
 	font-size: 16px;
@@ -124,14 +124,28 @@ body {
 
 
 .btn {
-	width: 35px;
-	height: 5px;
-	background-color: black;
-	margin: 6px 6px;
 	float: right;
-	margin-right: 6px;
-
+	overflow: hidden;
 }
 
 
+.btn .exitbtn {
+	/*background-color: #555;*/
+	background-color: inherit;
+	color: #555;
+	float: right;
+	border: none;
+	padding: 3px 12px;
+	margin-right: 6px;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 6px;
+}
 
+/* Darker background on mouse-over */
+.btn:hover .exitbtn{
+  background-color: #0E1152;
+  color: white;
+
+
+ 
