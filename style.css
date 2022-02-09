@@ -119,40 +119,27 @@ body {
 	.topnav input [type=text] {
 		border: 1px solid #ccc;
 	}
-
 }
-
 
 
 .btn {
-	float: right;
-	/*background-color: black;*/
-	background-color: #0E1152;
-	border: none;
-	color: white;
-	padding: 6px 0;
-	margin-top: 8px;
-	font-size: 16px;
-	margin-right: 6px;
-    cursor: pointer;
-    padding: 6px 12px;
-  
-  
-}
-
- /*Lighter background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;*/
-}
-
-
-.logout {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  margin-top: 8px;
+  font-size: 16px;
+  cursor: pointer;
   float: right;
-  overflow: hidden;
+  margin-right: 6px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
 }
 
 
- 
 
 
 
