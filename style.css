@@ -91,7 +91,7 @@ body {
 	float: right;
 	padding: 6px 10px;
 	margin-top: 8px;
-	margin-right: 16px;
+	margin-right: 70px;
 	background-color: #555;
 	color: white;
 	font-size: 16px;
@@ -104,10 +104,10 @@ body {
 }
 
 @media (max-width: 450px) {
-	.topnav .login-container {
+	.topnav .login-container .btn {
 		float: left;
 }	
-	.topnav a, .topnav input[type=text], .topnav .login-container button {
+	.topnav a, .topnav input[type=text], .topnav .login-container button, .btn {
 		display: block;
 		text-align: left;
 		width: 100%;
@@ -124,6 +124,32 @@ body {
 
 
 
+.btn {
+	float: right;
+	/*background-color: black;*/
+	background-color: #0E1152;
+	border: none;
+	color: white;
+	padding: 6px 0;
+	margin-top: 8px;
+	font-size: 16px;
+	margin-right: 6px;
+    cursor: pointer;
+    padding: 6px 12px;
+  
+  
+}
+
+ /*Lighter background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;*/
+}
+
+
+.logout {
+  float: right;
+  overflow: hidden;
+}
 
 
  
