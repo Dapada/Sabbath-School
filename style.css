@@ -74,8 +74,6 @@ body {
 }
 
 
-
-
 .topnav .login-container{
 	float: right;
 }
@@ -92,7 +90,7 @@ body {
 	float: right;
 	padding: 6px 10px;
 	margin-top: 8px;
-	margin-right: 120px;
+	margin-right: 70px;
 	background-color: #555;
 	color: white;
 	font-size: 16px;
@@ -105,16 +103,16 @@ body {
 }
 
 @media (max-width: 450px) {
-	.topnav .login-container .btn {
+	.topnav .login-container .menu_bar {
 		float: left;
 }	
-	.topnav a, .topnav input[type=text], .topnav .login-container button, .btn {
+	.topnav a, .topnav input[type=text], .topnav .login-container button, .menu_bar {
 		display: block;
 		text-align: left;
 		width: 100%;
 		margin: 0;
 		padding: 14px;	
-	display: inline-block;
+	  display: inline-block;
 	}
 
 	.topnav input [type=text] {
@@ -124,48 +122,49 @@ body {
 
 
 
-
-.subnav1 {
-  float: left;
+.menu_bar {
+  float: right;
   overflow: hidden;
 }
 
-.subnav1 .subnavbtn1 {
-  font-size: 16px;  
+
+.menu_bar .menu_barbtn {
+  font-size: 30px;  
   border: none;
   outline: none;
-  color: black;
-  padding: 14px 16px;
+  color: #555;
+  padding: 0 6px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  margin-top: 8px;
 }
 
-.topnav1 a:hover, .subnav1:hover .subnavbtn1 {
-	/*background-color: #44bcd8;*/
-	border-top: 2px solid red;
-} 
 
-.subnav-content1 a {
-  float: left;
+.menu_bar:hover .menu_barbtn {
+	background-color: #44bcd8;
+}
+
+.menu_bar-content a {
+  float: none;
   text-align: left;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
-.subnav-content1 {
+.menu_bar-content {
   display: none;
   position: absolute;
-  background-color: #dfc8a2;
-  min-width: 50%;
+  background-color: lightgrey;
+  min-width: 140px;
   z-index: 1;
 }
 
-.subnav-content1 a:hover {
-  background-color: #abdbe3;
+.menu_bar-content a:hover {
+  background-color: darkgrey;
   color: black;
 }
 
-.subnav1:hover .subnav-content1 {
+.menu_bar:hover .menu_bar-content {
   display: block;
 }
