@@ -133,15 +133,15 @@ body {
 
 
 .menu_bar .menu_barbtn {
-  font-size: 30px;  
+ 
   border: none;
   outline: none;
   color: #555;
-  padding: 0 6px;
+  padding: 0 60px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 
@@ -159,13 +159,13 @@ body {
 .menu_bar-content {
   display: none;
   position: absolute;
-  background-color: lightgrey;
+  background-color: white;
   min-width: 140px;
   z-index: 1;
 }
 
 .menu_bar-content a:hover {
-  background-color: darkgrey;
+  background-color: lightgrey;
   color: black;
 }
 
