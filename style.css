@@ -5,10 +5,10 @@ body {
   color: #fff;
   background-color: #0e1152;
   font-family: 'Oxygen', sans-serif;
-  min-height: 100vh;
+  /*min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 
@@ -104,21 +104,22 @@ body {
 }
 
 
-
-
-
-
 /********/ 
 
 
 
-#mylogin-form {
+/*#mylogin-form {
   display: none;
+}*/
 
+
+.form-box {
+  width: 380px;
+  height: 480;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;padding: 5px;
 }
-
-
-
 
 
 
