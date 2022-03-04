@@ -1,187 +1,166 @@
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 body {
-	background-color: #0E1152;
-}
-
-p {
-  float: left;
-  overflow: hidden;
-  padding: 14px 16px;
-  color: darkblue;
-}
-
-
-.topnav p {
-	color: color: #0E1152;
-}
-
-
-.topnav a {
-	position: relative;
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  box-sizing: border-box;
   font-size: 16px;
+  color: #fff;
+  background-color: #0e1152;
+  font-family: 'Oxygen', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
- .topnav {
+
+/* Header */
+#header-nav {
   overflow: hidden;
+  border-radius: 0;
+  border: 0;
   background-color: #e6e6fa;
+
 }
 
 
-.subnav {
+#logo-img {
+  background: url('logo.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
   float: left;
-  overflow: hidden;
 }
 
-.subnav .subnavbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
 
-.topnav a:hover, .subnav:hover .subnavbtn {
-	/*background-color: #44bcd8;*/
-	border-top: 2px solid red;
-} 
-
-.subnav-content a {
-	float: left;
-
-  /******float: left;****/
-  text-align: left;
-  color: black;
+/* navbar-brand a h4  (sabbath school)*/
+.navbar-brand a { 
   text-decoration: none;
 }
 
-.subnav-content {
-  display: none;
-  position: absolute;
-  background-color: #ddd;
-  min-width: 25%;
-  z-index: 1;
+.navbar-brand h4 { 
+  font-weight: bold;
+  /*font-size: 2vw;*/
 }
 
-.subnav-content a:hover {
-  background-color: darkgrey;
+
+.navbar-brand a:hover, a:focus {
+  color: #1c8adb;
+}
+
+
+/* navbar-brand p (Gethsemane church)*/
+.navbar-brand p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .10;
+  font-size: .7em;
+  /*text-transform: uppercase;*/
+}
+
+
+.navbar-brand p span {
+  color: #1c8adb;
+  /*vertical-align: middle;*/
+}
+
+
+
+.navbar .offcanvas-body .nav-item a:hover {
+  color: #1c8adb;
+  text-decoration: underline;
+}
+
+
+
+.navbar button.navbar-toggler { /* menu bar */
+  color: #fff;
+  border: 1px solid #1c8adb;
+
+}
+
+
+.navbar button.navbar-toggler:hover { /* Menu bar */
+  background-color: #1c8adb;
   color: white;
 }
 
-.subnav:hover .subnav-content {
-  display: block;
-}
 
 
-.topnav .login-container{
-	float: right;
-}
-
-.topnav input[type=text] {
-	padding: 6px;
-	margin-top: 8px;
-	font-size: 16px;
-	border: none;
-	width: 140px;
-}
-
-.topnav .login-container button {
-	float: right;
-	padding: 6px 10px;
-	margin-top: 8px;
-	margin-right: 6px;
-	/*margin: 6px;*/
-	background-color: #555;
-	color: white;
-	font-size: 16px;
-	border: none;
-	cursor: pointer;
-}
-
-.topnav .login-container button:hover {
-	background-color: green;
-}
-
-@media (max-width: 450px) {
-	.topnav .login-container .menu_bar {
-		float: left;
-}	
-	.topnav a, .topnav input[type=text], .topnav .login-container button, .menu_bar {
-		display: block;
-		text-align: left;
-		width: 100%;
-		margin: 0;
-		padding: 14px;	
-	  display: inline-block;
-	}
-
-	.topnav input [type=text] {
-		border: 1px solid #ccc;
-	}
+.navbar ul li button:hover {
+  text-decoration: underline;
+  background: transparent;
 }
 
 
 
-.menu_bar {
-  float: left;
-  overflow: hidden;
-}
-
-
-.menu_bar .menu_barbtn {
-  border: none;
+.navbar ul li button {
+  color: blue;
   outline: none;
-  color: #555;
-  padding: 0 6px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  margin-top: 16px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 6px;
 }
 
 
-.menu_bar:hover .menu_barbtn {
-	/*background-color: #44bcd8;*/
-	color: white;
-}
 
-.menu_bar-content a {
-  float: none;
-  text-align: left;
-  color: black;
-  text-decoration: none;
-}
 
-.menu_bar-content {
+
+
+/********/ 
+
+
+
+#mylogin-form {
   display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  z-index: 1;
+
 }
 
-.menu_bar-content a:hover {
-  background-color: lightgrey;
-  color: black;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.navbar .offcanvas-body .nav-item b { /* Registration 
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 15px;
+  color: green;
 }
 
-.menu_bar:hover .menu_bar-content {
-  display: block;
+
+
+
+/*.navbar .offcanvas-body .nav-item b a:hover { /* Registration 
+  color: red;
+}/*
+
+
+
+
+.navbar .offcanvas-body button:hover {
+  color: white;
+  background-color: #1353f2;
 }
+
+
+.navbar .offcanvas-body button {
+  border-color: #1353f2;
+  color: #1353f2;
+}
+
 
 
 
