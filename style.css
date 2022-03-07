@@ -180,17 +180,24 @@ h1 {
 
 .form__button {
   margin-bottom: 1rem;
+  width: 100%;
+}
+button .form__button{
+  
+  border-radius: 6px;
+  padding: .075rem;
 }
 
 
 .form__input {
-  display: block;
-  width: 100%;
-  padding: 0.75rem;
-  box-sizing: border-box;
-  border-radius: 6px;
-  border: 1px solid #ddd;
-  transition: background 0.2s, border-color 0.2s;
+  
+  
+
+}
+
+
+.form__input:hover {
+  border-color: #1c8adb;
 }
 
 
