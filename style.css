@@ -181,24 +181,28 @@ h1 {
 .form__button {
   margin-bottom: 1rem;
   width: 100%;
-}
-button .form__button{
-  
   border-radius: 6px;
+}
+
+
+button .form__button{ 
+  border-radius: 20px;
   padding: .075rem;
 }
 
 
 .form__input {
-  
-  
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
 
 }
 
 
-.form__input:hover {
+.form__input:focus {
   border-color: #1c8adb;
 }
+
 
 
 
