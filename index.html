@@ -59,7 +59,7 @@
   </nav>
   <div class="login-page">
     <div id="d1353" class="mylogin-page">
-      <form class="form form--hidden" id="login">
+      <form class="form" id="login">
         <h1 class="form__title">Login</h1>
         <div class="form__message form__message--error"></div>
         <div class="form__input-group">
@@ -70,7 +70,7 @@
           <input type="password" class="form__input" autofocus placeholder="Enter your password" name="password">
           <div class="form__input-error-message"></div>
         </div>
-        <button class="form__button" type="submit">Sign in</button>
+        <button class="form__button" type="submit" onclick="login()">Sign in</button>
         <p class="form__text">
           <a href="#" class="form__link">Forgot password?</a>
         </p>
@@ -97,7 +97,7 @@
           <input type="password" class="form__input" autofocus placeholder="Confirm password" name="confirm password">
           <div class="form__input-error-message"></div>
         </div>
-        <button class="form__button" type="submit">Sign up</button>
+        <button class="form__button" type="submit" onclick="createAccount()">Sign up</button>
         <p class="form__text">
           <a class="form__link"   id="linkLogin">Already have an account? Sign in</a>
         </p>
