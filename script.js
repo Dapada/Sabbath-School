@@ -1,4 +1,33 @@
-document.addEventListener("DOMContentLoaded", () => {
+var x = document.getElementById("login");
+var y = document.getElementById("createAccount");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*document.addEventListener("DOMContentLoaded", () => {
   const loginForm = document.querySelector("#login");
   const createAccountForm = document.querySelector("#createAccount");
 
@@ -16,20 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
  
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
