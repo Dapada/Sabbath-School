@@ -108,9 +108,9 @@ body {
 
 
 
-#d1353 {
+/*#d1353 {
   display: none;
-}
+}*/
 
 
 .login-page {
@@ -147,9 +147,9 @@ h1 {
 }
 
 
-/*.form--hidden {
+.form--hidden {
   display: none;
-}*/
+}
 
 
 .form > *:first-child {
