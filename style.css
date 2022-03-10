@@ -147,9 +147,9 @@ h1 {
 }
 
 
-.form--hidden {
+/*.form--hidden {
   display: none;
-}
+}*/
 
 
 .form > *:first-child {
