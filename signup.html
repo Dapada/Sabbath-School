@@ -14,6 +14,113 @@
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 
 <style>
+
+  body {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0e1152;
+  font-family: 'Oxygen', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Header */
+#header-nav {
+  overflow: hidden;
+  border-radius: 0;
+  border: 0;
+  background-color: #e6e6fa;
+
+}
+
+
+#logo-img {
+  background: url('logo.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+  float: left;
+}
+
+
+/* navbar-brand a h4  (sabbath school)*/
+.navbar-brand a { 
+  text-decoration: none;
+}
+
+.navbar-brand h4 { 
+  font-weight: bold;
+  /*font-size: 2vw;*/
+}
+
+
+.navbar-brand a:hover, a:focus {
+  color: #1c8adb;
+}
+
+
+/* navbar-brand p (Gethsemane church)*/
+.navbar-brand p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .10;
+  font-size: .7em;
+  /*text-transform: uppercase;*/
+}
+
+
+.navbar-brand p span {
+  color: #1c8adb;
+  /*vertical-align: middle;*/
+}
+
+
+
+.navbar .offcanvas-body .nav-item a:hover {
+  color: #1c8adb;
+  text-decoration: underline;
+}
+
+
+
+.navbar button.navbar-toggler { /* menu bar */
+  color: #fff;
+  border: 1px solid #1c8adb;
+
+}
+
+
+.navbar button.navbar-toggler:hover { /* Menu bar */
+  background-color: #1c8adb;
+  color: white;
+}
+
+
+
+.navbar ul li button:hover {
+  text-decoration: underline;
+  background: transparent;
+}
+
+
+
+.navbar ul li button {
+  color: blue;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+
+
   
   #d1353 {
   display: none;
@@ -220,7 +327,7 @@ h1 {
         <button class="form__button" type="submit">Sign up</button>
         <p class="form__text">
           <!--<a class="form__link"   id="linkLogin">Already have an account? Sign in</a> -->
-          <a href="index.html">Already have an account? Sign in</a>
+          <a href="login.html">Already have an account? Sign in</a>
         </p>
       </form> 
 </header>
