@@ -1,5 +1,4 @@
-var x = document.getElementById("login");
-var y = document.getElementById("createAccount");
+
 
 
 
